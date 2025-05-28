@@ -1,0 +1,26 @@
+.profile-container {
+    padding: 20px;
+    
+    .avatar-section {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .actions {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      
+      button {
+        width: 100px;
+      }
+    }
+    
+    textarea, input[type="text"], input[type="date"], select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+    }
+  }

@@ -1,0 +1,49 @@
+#res-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 16px;
+
+  .score-card,
+  .status-card {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+  .question-card {
+    margin-bottom: 16px;
+
+    .question-content {
+      margin-bottom: 12px;
+    }
+
+    .options-container {
+      margin: 10px 0;
+
+      .ant-radio-wrapper {
+        display: block;
+        margin: 8px 0;
+      }
+
+      .ant-checkbox-wrapper {
+        display: block;
+        margin: 8px 0;
+      }
+    }
+
+    .answer-container,
+    .analysis-container {
+      margin: 8px 0;
+      line-height: 1.5;
+    }
+  }
+
+  .questions-container {
+    margin-top: 20px;
+  }
+
+  .mt-2 {
+    margin-top: 8px;
+  }
+}
